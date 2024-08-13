@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Main/Navbar';
 import Footer from './Main/Footer';
 import { Helmet } from 'react-helmet';
-// lourity
+// Dark Creative
 const Home = () => {
   const projects = [
     { name: "ViaApp", description: "Discord sunucunuzu yeni nesil sistemlerle yönetin (09.04.2024)", url: "https://viaappdc.xyz", language: "react", extraLanguage: "typescript" },
@@ -14,14 +14,14 @@ const Home = () => {
   ]
 
   const educations = [
-    { name: "Discord Botu Geliştirme", description: "Javascript ile Discord botu geliştirme eğitimi", url: "https://www.udemy.com/course/javascript-ile-discord-bot-gelistirme/" },
+    { name: "Discord Botu Geliştirme", description: "Yakında...", url: "" },
   ]
 
   return (
     <div>
       <Helmet>
-        <title>Lourity - Projeler</title>
-        <meta name="description" content="Lourity'nin geliştirdiği projeleri inceleyin. Web geliştirme, Discord botları ve daha fazlası." />
+        <title>Dark Creative - Projeler</title>
+        <meta name="description" content="Dark Creative'nin geliştirdiği projeleri inceleyin. Web geliştirme, Discord botları ve daha fazlası." />
         <meta property="og:image" content="/logo.png" />
         <meta name="theme-color" content="#0ea5e9" />
       </Helmet>
